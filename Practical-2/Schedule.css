@@ -1,0 +1,52 @@
+:root {
+  --header_background_color: #0049b7;
+  --header_text_color: #fdfdfd;
+}
+
+.main-table {
+  width: 100%;
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  border-spacing: 1px;
+  border: collapse;
+  word-wrap: normal;
+}
+
+thead {
+  text-align: left;
+  background-color: var(--header_background_color);
+  color: var(--header_text_color);
+}
+
+th,
+td {
+  padding: 1.5%;
+  text-align: left;
+}
+
+.nest {
+  border-bottom: 1px solid white;
+}
+
+.row-color1 {
+  background-color: #2d545e;
+  color: white;
+}
+
+.row-color2 {
+  background-color: #ffde22;
+}
+
+.container {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

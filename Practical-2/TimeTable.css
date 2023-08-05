@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 2px;
+}
+
+td {
+  padding: 1.2rem 1rem;
+}
+
+table {
+table-layout: auto;
+  border-spacing: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+.days {
+  color: #fff;
+  background-color: #212529;
+}
+
+tr{
+    background-color: #b8daff;
+}

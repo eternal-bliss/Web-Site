@@ -1,0 +1,55 @@
+.End {
+  width: 100%;
+  padding-top: 40px;
+  margin: 2px auto;
+  text-align: center;
+}
+
+.details {
+  padding: 1.2rem 5rem;
+  font-stretch: ultra-expanded;
+}
+
+.h1College {
+  padding: 1rem 10rem;
+  margin: auto;
+  text-align: center;
+}
+
+.pCollege {
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+.End > button > a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: aliceblue;
+}
+
+.Department,
+.Contacts {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Department-body {
+  background-color: #12343b;
+}
+
+.Tag {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.myhover:hover {
+  color: purple;
+}
